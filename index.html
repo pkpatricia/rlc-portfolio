@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>My Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="css\normalize.css">
-	<link rel="stylesheet" type="text/css" href="css\styles.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="icon" type="image/ico" href="favicon.ico">
 	<link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -21,7 +21,7 @@
 			</ul>
 		</nav>
 	</header>
-	<section class="welcome">
+	<section class="welcome centertext">
 		<div>
 			<h2>Welcome to my website</h2>
 			<h4>This is a catchy tagline</h4>
@@ -53,16 +53,26 @@
 	<section>
 		<h2 class="centertext">My Portfolio</h2>
 		<div class="third">
+			
+			<img srcset="images/download_resize_1024.jpg 1024w, images/download_resize_300.jpg 300w"
+			src="images/download_resize_300.jpg"
+			alt="My responsive image" />
 			<h2>Ipsum feugiat et dolor</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos cumque recusandae, fugit et! Quaerat porro quisquam ut nesciunt odit tempora possimus sit explicabo sint vel saepe voluptate, recusandae quos eveniet.</p>
 			<a href="">Find out more</a>
 		</div>
 		<div class="third">
+			<img srcset="images/download_resize_1024.jpg 1024w, images/download_resize_300.jpg 300w"
+			src="images/download_resize_300.jpg"
+			alt="My responsive image" />
 			<h2>Sed etiam lorem nulla</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit sit ullam quibusdam facilis minus dolor similique quisquam pariatur natus delectus itaque nemo, totam, dolorem ipsam asperiores obcaecati doloribus quidem. Quisquam.</p>
 			<a href="">Find out more</a>
 		</div>
 		<div class="third">
+			<img srcset="images/download_resize_1024.jpg 1024w, images/download_resize_300.jpg 300w"
+			src="images/download_resize_300.jpg"
+			alt="My responsive image" />
 			<h2>Consequat et tempus</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, ipsa, deserunt. Cupiditate incidunt quas doloribus deserunt! Soluta nostrum iusto illo itaque incidunt odio beatae necessitatibus dicta neque, accusamus, ab quae.</p>
 			<a href="">Find out more</a>
@@ -72,6 +82,12 @@
 	<section>
 		<h2 class="centertext">The Blog</h2>
 		<article class=" double">
+		<picture>
+			<source media="(min-width: 600px)"
+			 srcset="images/download_resize_1024.jpg">
+			 <img src="images/download_resize_300.jpg"
+			 alt="My responsive images">
+		</picture>
 			<h2>Magna tempus consequat lorem</h2>
 			<p>Posted 45 minutes ago</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit reprehenderit, officia. Accusamus minus eos adipisci magni facere. Placeat harum magni dignissimos repellendus, eveniet nulla aliquam pariatur necessitatibus, nam enim fugiat?</p>
@@ -80,6 +96,12 @@
 			</div>	
 		</article>
 		<article class="double">
+		<picture>
+			<source media="(min-width: 600px)"
+			 srcset="images/download_resize_1024.jpg">
+			 <img src="images/download_resize_300.jpg"
+			 alt="My responsive images">
+		</picture>
 			<h2>Aptent veroeros et aliquam</h2>
 			<p>Posted 45 minutes ago</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde fuga, omnis inventore nemo odit consequuntur quis voluptatem deserunt quos laudantium quia ullam ea quam, cum illum veritatis quasi minima aut!</p>

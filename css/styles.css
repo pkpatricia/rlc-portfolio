@@ -8,16 +8,10 @@ h1, h2, h3, h4 {
 	font-family: 'Signika', sans-serif;
 }
 
-.fa fa-file-text {
-	margin 20px 20px;
-
-}
-
 .whitepic {
-
 	color: white;
 	background-color: gray;
-	padding: 5px;
+	padding: 30px;
 }
 
  
@@ -46,7 +40,7 @@ h1, h2, h3, h4 {
 	padding: 0;
 }	
 
-.navigation li{
+.navigation li {
 	display: inline;
 	list-style: none;
  	margin: 0 5px;
@@ -56,16 +50,13 @@ h1, h2, h3, h4 {
 	padding: 10px;
 }
 
-
-
 .welcome {
 	background-color: #000;
 	color: #fff;
-
 }
 
 .double {
 	width: 50%;
 	float: left;
-	}
+}
 
