@@ -45,6 +45,10 @@ h1, h2, h3, h4 {
 	padding: 0;
 }	
 
+.footerList li {
+	list-style: none;
+	margin-left: -2.30rem;
+}
 .navigation li {
 	display: inline;
 	list-style: none;
