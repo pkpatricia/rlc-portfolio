@@ -104,7 +104,7 @@ a:active {
 			 with a screen that is at least 600 pixels wide.
 ****/
 
-@media (min-width: 600px) {
+@media (min-width: 745px) {
 	.double {
 		width: 50%;
 		float: left;
