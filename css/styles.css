@@ -3,9 +3,27 @@ body {
 	width: 100%;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
 
 	font-family: 'Signika', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FF00FF;
+}
+
+a:active {
+    text-decoration: none;
+    color: #FF00FF;
 }
 
 .whitepic {
@@ -23,19 +41,14 @@ h1, h2, h3, h4 {
 	font-size: 5em;
 }
 
-.fa.fa-envelope-o {
-	font-size: 1em;
-}
-
-.fa.fa-file-text{
+.fa.fa-envelope-o, .fa.fa-file-text {
 	font-size: 1em;
 }
 
 .bgimg {
-	background: url("../images/Labeled_Medium.jpg");
+	background: url("../images/Stocksy_laptop_pink_book_Medium.jpg");
 	background-size: cover;
-	color: #000;
-
+	color: #fff;
 }
 
 .cf:before,
@@ -56,7 +69,8 @@ h1, h2, h3, h4 {
 .third {
 	width: 100%;
 	float: none;
-	}
+	margin-bottom: 20px;
+}
 
 .navigation {
 	margin: 0;
@@ -78,27 +92,30 @@ h1, h2, h3, h4 {
 	padding: 10px;
 }
 
-/*.welcome {
-	background-color: #000;
-	color: #fff;
-}
-*/
-
 .double {
 	width: 100%;
 	float: none;
+	margin-bottom: 20px;
 }
+
+
+/****  Media Query  
+			 This is the base case and starts 
+			 with a screen that is at least 600 pixels wide.
+****/
 
 @media (min-width: 600px) {
 	.double {
 		width: 50%;
 		float: left;
+		margin-bottom: 20px;
 	}
 	
 	.third {
 		width: 33%;
 		float: left;
-	}
+	  margin-bottom: 20px;
+}
 	
 	.navigation li {
 		display: inline;
