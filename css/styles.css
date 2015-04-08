@@ -101,7 +101,7 @@ a:active {
 
 /****  Media Query  
 			 This is the base case and starts 
-			 with a screen that is at least 600 pixels wide.
+			 with a screen that is at least 745 pixels wide.
 ****/
 
 @media (min-width: 745px) {
