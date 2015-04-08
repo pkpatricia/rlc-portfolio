@@ -19,13 +19,24 @@ h1, h2, h3, h4 {
 	text-align: center;
 }
 
+.fa {
+	font-size: 5em;
+}
+
+.fa.fa-envelope-o {
+	font-size: 1em;
+}
+
+.fa.fa-file-text{
+	font-size: 1em;
+}
+
 .bgimg {
 	background: url("../images/Labeled_Medium.jpg");
 	background-size: cover;
 	color: #000;
 
 }
-
 
 .cf:before,
 .cf:after {
@@ -43,8 +54,8 @@ h1, h2, h3, h4 {
 
 
 .third {
-	width: 33%;
-	float: left;
+	width: 100%;
+	float: none;
 	}
 
 .navigation {
@@ -57,9 +68,10 @@ h1, h2, h3, h4 {
 	margin-left: -2.30rem;
 }
 .navigation li {
-	display: inline;
+	display: block;
 	list-style: none;
- 	margin: 0 5px;
+ 	margin: 5px 5px;
+	width: 100%;
 }
 
 .navigation li a {
@@ -73,18 +85,29 @@ h1, h2, h3, h4 {
 */
 
 .double {
-	width: 50%;
-	float: left;
+	width: 100%;
+	float: none;
 }
 
-@media only screen and (min-width: 768px) {
-    /* tablets and desktop */
+@media (min-width: 600px) {
+	.double {
+		width: 50%;
+		float: left;
+	}
+	
+	.third {
+		width: 33%;
+		float: left;
+	}
+	
+	.navigation li {
+		display: inline;
+		width: auto;
+	}
 }
 
-@media only screen and (max-width: 767px) {
-    /* phones */
-}
 
-@media only screen and (max-width: 767px) and (orientation: portrait) {
-    /* portrait phones */
-}
+
+
+
+
