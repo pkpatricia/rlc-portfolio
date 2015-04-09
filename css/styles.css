@@ -65,6 +65,15 @@ a:active {
 	text-align: center;
 }
 
+.leftjust {
+	text-align: left;
+}
+
+.stretchtext {
+	display: flex;
+  flex-flow: row wrap;
+	align-content:stretch; 
+}
 
 .third {
 	width: 100%;
