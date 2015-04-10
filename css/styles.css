@@ -1,7 +1,4 @@
-body {
-	margin: 0 auto;
-	width: 100%;
-}
+
 
 h1, h2, h3, h4, h5 {
 
@@ -49,6 +46,7 @@ a:active {
 	background: url("../images/roses_medium.jpg");
 	background-size: cover;
 	color: #fff;
+	width: 100%;
 }
 
 .cf:before,
@@ -65,15 +63,6 @@ a:active {
 	text-align: center;
 }
 
-.leftjust {
-	text-align: left;
-}
-
-.stretchtext {
-	display: flex;
-  flex-flow: row wrap;
-	align-content:stretch; 
-}
 
 .third {
 	width: 100%;
@@ -86,10 +75,6 @@ a:active {
 	padding: 0;
 }	
 
-.footerList li {
-	list-style: none;
-	margin-left: -2.30rem;
-}
 .navigation li {
 	display: block;
 	list-style: none;
@@ -109,11 +94,10 @@ a:active {
 
 
 /****  Media Query  
-			 This is the base case and starts 
-			 with a screen that is at least 1159 pixels wide.
+			 starts with a screen that is at least 600 pixels wide.
 ****/
 
-@media (min-width: 1159px) {
+@media (min-width: 600px) {
 	.double {
 		width: 50%;
 		float: left;
@@ -129,6 +113,10 @@ a:active {
 	.navigation li {
 		display: inline;
 		width: auto;
+	}
+
+	footer {
+		clear: both;
 	}
 }
 
