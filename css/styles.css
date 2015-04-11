@@ -43,9 +43,9 @@ a:active {
 }
 
 .bgimg {
-	background: url("../images/laptop_pink_book_Small.jpg");
+	background: url("../images/roses_medium.jpg");
 	background-size: cover;
-	color: #FF00FF;
+	color: #fff;
 	width: 100%;
 }
 
@@ -61,6 +61,26 @@ a:active {
 
 .centertext {
 	text-align: center;
+	
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: #000;
+}
+
+.centermargin {
+	margin-left: 35%;
+}
+
+.centermargincenter {
+	margin-left: 37%;
+}
+
+.centermarginright {
+	margin-left: 45%;
 }
 
 
@@ -114,6 +134,25 @@ a:active {
 		display: inline;
 		width: auto;
 	}
+
+	.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    background-color: #000;
+}
+
+.centermargin {
+	margin-left: 29%;
+}
+
+.centermargincenter {
+	margin-left: 33%;
+}
+
+.centermarginright {
+	margin-left: 43%;
+}
 
 	footer {
 		clear: both;
