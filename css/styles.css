@@ -43,9 +43,9 @@ a:active {
 }
 
 .bgimg {
-	background: url("../images/roses_medium.jpg");
+	background: url("../images/laptop_pink_book_Small.jpg");
 	background-size: cover;
-	color: #000;
+	color: #FF00FF;
 	width: 100%;
 }
 
