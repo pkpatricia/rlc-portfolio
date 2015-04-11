@@ -45,7 +45,7 @@ a:active {
 .bgimg {
 	background: url("../images/roses_medium.jpg");
 	background-size: cover;
-	color: #fff;
+	color: #000;
 	width: 100%;
 }
 
