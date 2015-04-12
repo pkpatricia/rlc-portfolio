@@ -1,7 +1,6 @@
 
 
 h1, h2, h3, h4, h5 {
-
 	font-family: 'Signika', sans-serif;
 }
 
@@ -65,24 +64,12 @@ a:active {
 }
 
 .center {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    padding: 3%;
     width: 70%;
     background-color: #000;
+    background-position: 30%;
 }
-
-.centermargin {
-	margin-left: 35%;
-}
-
-.centermargincenter {
-	margin-left: 37%;
-}
-
-.centermarginright {
-	margin-left: 45%;
-}
-
 
 .third {
 	width: 100%;
@@ -112,6 +99,11 @@ a:active {
 	margin-bottom: 20px;
 }
 
+	footer {
+		clear: both;
+	}
+
+
 
 /****  Media Query  
 			 starts with a screen that is at least 600 pixels wide.
@@ -121,42 +113,23 @@ a:active {
 	.double {
 		width: 50%;
 		float: left;
-		margin-bottom: 20px;
-	}
+}
 	
 	.third {
 		width: 33%;
 		float: left;
-	  margin-bottom: 20px;
 }
 	
 	.navigation li {
 		display: inline;
 		width: auto;
-	}
+}
 
 	.center {
-    margin-left: auto;
-    margin-right: auto;
     width: 30%;
-    background-color: #000;
 }
 
-.centermargin {
-	margin-left: 29%;
-}
 
-.centermargincenter {
-	margin-left: 33%;
-}
-
-.centermarginright {
-	margin-left: 43%;
-}
-
-	footer {
-		clear: both;
-	}
 }
 
 
