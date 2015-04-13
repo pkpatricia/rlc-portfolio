@@ -44,7 +44,6 @@ a:active {
 .bgimg {
 	background: url("../images/roses_medium.jpg");
 	background-size: cover;
-	color: #fff;
 	width: 100%;
 }
 
@@ -64,11 +63,45 @@ a:active {
 }
 
 .center {
-    margin: auto;
-    padding: 3%;
-    width: 70%;
-    background-color: #000;
-    background-position: 30%;
+  margin: auto;
+  padding: 3%;
+  background-color: #000;
+  border-radius: 10px;
+  height: 50%;
+  width: 50%;
+}
+
+.statement {
+	
+  background-color: hotpink;
+  
+  padding: 3%;
+  border-radius: 320px;
+  height: 240px;
+  width: 240px;
+  line-height: 120px;
+
+  color: #fff;
+  display: block;
+  margin: auto;
+  text-align: center;
+	  
+}
+
+.text {
+
+  display: inline-block;
+  
+
+  line-height: .8em;
+  
+
+  /* margin-top: .3em; */
+  
+
+  margin: auto;
+
+  padding: 0 5px;
 }
 
 .third {
@@ -127,6 +160,14 @@ a:active {
 
 	.center {
     width: 30%;
+}
+
+.statement {
+  border-radius: 300px;
+  height: 240px;
+  width: 240px;
+  line-height: 20px;
+  padding: 5%;
 }
 
 
