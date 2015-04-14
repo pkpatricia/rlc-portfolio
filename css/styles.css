@@ -1,4 +1,7 @@
-
+h1 {
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
 
 h1, h2, h3, h4, h5 {
 	font-family: 'Signika', sans-serif;
@@ -67,41 +70,28 @@ a:active {
   padding: 3%;
   background-color: #000;
   border-radius: 10px;
-  height: 50%;
-  width: 50%;
+  height: 385px;
+  width: 385px;
 }
 
 .statement {
-	
   background-color: hotpink;
-  
   padding: 3%;
   border-radius: 320px;
-  height: 240px;
-  width: 240px;
+  height: 360px;
+  width: 360px;
   line-height: 120px;
-
   color: #fff;
   display: block;
   margin: auto;
   text-align: center;
-	  
 }
 
 .text {
-
   display: inline-block;
-  
-
-  line-height: .8em;
-  
-
-  /* margin-top: .3em; */
-  
-
+  line-height: 1em;
   margin: auto;
-
-  padding: 0 5px;
+  padding: 47px 5px;
 }
 
 .third {
@@ -132,17 +122,16 @@ a:active {
 	margin-bottom: 20px;
 }
 
-	footer {
+footer {
 		clear: both;
-	}
-
-
+}
 
 /****  Media Query  
 			 starts with a screen that is at least 600 pixels wide.
 ****/
 
 @media (min-width: 600px) {
+	
 	.double {
 		width: 50%;
 		float: left;
@@ -159,22 +148,16 @@ a:active {
 }
 
 	.center {
-    width: 30%;
+       width: 400px;
 }
 
-.statement {
-  border-radius: 300px;
-  height: 240px;
-  width: 240px;
-  line-height: 20px;
-  padding: 5%;
-}
-
-
+	.statement {
+  	  border-radius: 500px;
+  	  height: 380px;
+  	  width: 380px;
+  	  line-height: 20px;
+  	  padding: 9px;
 }
 
 
-
-
-
-
+}
